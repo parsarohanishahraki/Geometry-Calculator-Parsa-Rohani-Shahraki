@@ -4,6 +4,7 @@ public class SquarePrism extends Prism {
 
 	/**
 	 * Constructor that initializes a new Square Prism
+	 * 
 	 * @param height
 	 * @param length
 	 */
