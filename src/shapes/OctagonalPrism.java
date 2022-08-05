@@ -1,13 +1,14 @@
 package shapes;
 
-public class OctagonalPrism extends Prism{
+public class OctagonalPrism extends Prism {
 	/**
 	 * Constructor that initializes the octagonal prism
+	 * 
 	 * @param height
 	 * @param length
 	 */
 	public OctagonalPrism(double height, double length) {
-		super(height,length);
+		super(height, length);
 	}
 
 	@Override

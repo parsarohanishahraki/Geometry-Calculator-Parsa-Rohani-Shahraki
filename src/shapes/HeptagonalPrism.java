@@ -13,15 +13,15 @@ public class HeptagonalPrism extends Prism {
 
 	@Override
 	public double getBaseArea() {
-		double rads = Math.toRadians(180.0/7.0);
-		double cotan = 1.0/ Math.tan(rads);
+		double rads = Math.toRadians(180.0 / 7.0);
+		double cotan = 1.0 / Math.tan(rads);
 		return (7.0 / 4.0) * Math.pow(this.getLength(), 2) * cotan;
 	}
 
 	@Override
 	public double getVolume() {
-		double rads = Math.toRadians(180.0/7.0);
-		double cotan = 1.0/ Math.tan(rads);
+		double rads = Math.toRadians(180.0 / 7.0);
+		double cotan = 1.0 / Math.tan(rads);
 		return ((7.0 / 4.0) * Math.pow(this.getLength(), 2) * cotan) * this.getHeight();
 	}
 
