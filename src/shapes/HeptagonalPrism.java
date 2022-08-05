@@ -26,4 +26,3 @@ public class HeptagonalPrism extends Prism {
 	}
 
 }
-//2.07652139
