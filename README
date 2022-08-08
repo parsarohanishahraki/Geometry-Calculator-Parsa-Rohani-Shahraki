@@ -1,0 +1,40 @@
+=====Geometry Calculator=====
+Author: Parsa Rohani Shahraki
+
+=====Description=====
+This is an application that simulates a calculator that is used to calculate the base area and volume of regulars prisms (regular prisms have equal length sides).
+
+Simply run the application using the main java file located in the application package, choose a prism that you like and plug in your numbers.
+
+=====References=====
+The following links were used as references for either formulas and/or the pictures that were used in this program.
+
+Project references:
+
+https://www.wikihow.com/Calculate-the-Area-of-a-Triangle
+https://protonstalk.com/basic-math/area-of-pentagon/
+https://www.google.com/search?q=base+area+of+pentagonal+prism+formula&client=firefox-b-d&sxsrf=ALiCzsbQ-CCzsnMcTB61k7ZxM6t55QYseQ%3A1659677775726&ei=T6zsYpP8K4SP0PEPhsy2sAg&oq=base+area+&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzIFCAAQkQIyBAgAEEMyBAgAEEMyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEEcQsAM6CwguEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoUCC4QgAQQsQMQgwEQxwEQ0QMQ1AI6BAguEEM6CggAEIAEEIcCEBQ6BwguENQCEEM6DgguEIAEELEDEMcBEK8BOgsIABCABBCxAxCDAUoECEEYAEoECEYYAFCkBlj2DmCWF2gBcAF4AYABeogB9wWSAQM5LjGYAQCgAQHIAQjAAQE&sclient=gws-wiz
+https://www.google.com/search?client=firefox-b-d&q=octagonal+prism+base+area
+http://www.java2s.com/Code/Java/Development-Class/Calculatingtrigonometricfunctions.htm
+https://www.google.com/search?q=decagonal+prism+base+area&client=firefox-b-d&sxsrf=ALiCzsb2Z_MbSZSJw7gPXauMjp22TosLhQ%3A1659682560792&ei=AL_sYriEMKHE9APboLDwDg&ved=0ahUKEwi4hOerj6_5AhUhIn0KHVsQDO4Q4dUDCA0&uact=5&oq=decagonal+prism+base+area&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIICAAQHhAPEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWOgcIABBHELADOgcIABCwAxBDOgUIABCABDoECAAQQzoICAAQHhAWEAo6BQgAEIYDSgQIQRgASgQIRhgAUIAEWP8NYLcPaAFwAXgAgAFMiAG1BZIBAjEwmAEAoAEByAEKwAEB&sclient=gws-wiz
+https://www.google.com/search?client=firefox-b-d&q=triangular+prism+formula
+https://www.google.com/search?q=square+prism+formula&client=firefox-b-d&sxsrf=ALiCzsZshIWG9sy5pEO8WFtfT-X6DuP9iw%3A1659943919875&ei=77vwYsaFNaq90PEP7faD-AY&ved=0ahUKEwiGucP93Lb5AhWqHjQIHW37AG8Q4dUDCA0&uact=5&oq=square+prism+formula&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBggAEB4QBzIFCAAQgAQyBggAEB4QBzIFCAAQgAQyBAgAEB4yCAgAEB4QBxAFMggIABAeEAcQBTIGCAAQHhAFMgYIABAeEAU6BwgAEEcQsAM6BwgjELACECc6CAgAEB4QCBAHSgQIQRgASgQIRhgAULQCWPkGYMwJaAFwAXgAgAFViAGfA5IBATaYAQCgAQHIAQjAAQE&sclient=gws-wiz
+https://www.google.com/search?q=hexagonal+prism+formula&client=firefox-b-d&sxsrf=ALiCzsYU4dlVHsJPJRGr7LDZ_uCPKZb4_g%3A1659943933847&ei=_bvwYv-vM4uI0PEP25uIoA8&oq=hexagonal+prism+for&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCAAQgAQyCggAEIAEEIcCEBQyBQgAEIAEMgUIABCABDIICAAQHhAPEBYyCwgAEB4QDxDJAxAWMggIABAeEA8QFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjoHCAAQRxCwAzoECCMQJzoNCC4QxwEQ0QMQ1AIQQzoECAAQQzoFCAAQkQI6EQguEIAEELEDEIMBEMcBENEDOhAILhCxAxDHARDRAxDUAhBDOgcIABCxAxBDOgUIABCGA0oECEEYAEoECEYYAFC4BFjgIWCBKWgBcAF4AIABWogBkguSAQIxOZgBAKABAcgBCMABAQ&sclient=gws-wiz
+https://www.google.com/search?client=firefox-b-d&q=heptagonal+prism+formula
+https://www.google.com/search?q=octagonal+prism+base+area&client=firefox-b-d&sxsrf=ALiCzsbkHkq4eahQgueVtmlOGHeCNVx-tQ%3A1659943964073&ei=HLzwYvyQBIys0PEP0Yuq8AI&oq=octagonal&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECAAQQzIECAAQQzIECAAQQzIFCAAQkQIyBQgAEJECMgQIABBDMgQIABBDMgQIABBDMgcIABCABBAKOgcIABBHELADOggILhCABBCxAzoHCAAQsQMQQ0oECEEYAEoECEYYAFDZBFi9DGCiFWgBcAF4AIABbIgBzQWSAQM4LjGYAQCgAQHIAQjAAQE&sclient=gws-wiz
+https://www.google.com/search?q=enneagonal+prism+base+area&client=firefox-b-d&sxsrf=ALiCzsZ_tQ6qK0WpUsqmkapmQ14DEenUWw%3A1659943974000&ei=JbzwYpffPIjF0PEP8NyliAk&oq=enne&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIFCAAQkQIyBwgAELEDEEMyBQgAEJECMgoIABCxAxCDARBDMgcIABCxAxBDMgoIABCxAxCDARBDMgcIABCxAxBDMgcIABCxAxBDOgcIABBHELADOgsIABCABBCxAxCDAToRCC4QgAQQsQMQgwEQxwEQ0QM6CAguEIAEELEDOgQIABBDOg4ILhCABBCxAxDHARDRAzoICAAQgAQQsQNKBAhBGABKBAhGGABQ4gFY3wdgpQ5oAXABeACAAUyIAZ4CkgEBNJgBAKABAcgBCMABAQ&sclient=gws-wiz
+https://upload.wikimedia.org/wikipedia/commons/2/21/Triangular_prism.png	
+https://upload.wikimedia.org/wikipedia/commons/3/33/Hexahedron.png
+https://upload.wikimedia.org/wikipedia/commons/b/b6/Pentagonal_prism.png
+https://upload.wikimedia.org/wikipedia/commons/2/25/Hexagonal_prism.png
+https://upload.wikimedia.org/wikipedia/commons/6/6f/Prism_7.png
+https://upload.wikimedia.org/wikipedia/commons/5/59/Octagonal_prism.png
+https://upload.wikimedia.org/wikipedia/commons/8/8d/Prism_9.png
+https://upload.wikimedia.org/wikipedia/commons/a/a5/Decagonal_prism.png
+
+
+
+
+
+
+
