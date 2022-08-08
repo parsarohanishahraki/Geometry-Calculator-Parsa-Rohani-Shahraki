@@ -41,8 +41,8 @@ public class DecaPrismController {
 
 	@FXML
 	private void calculate() {
-		int length = Integer.parseInt(baseSideTextField.getText());
-		int height = Integer.parseInt(heightTextField.getText());
+		double length = Double.parseDouble(baseSideTextField.getText());
+		double height = Double.parseDouble(heightTextField.getText());
 		DecagonalPrism deca = new DecagonalPrism(height, length);
 		baseAreaTextField.setText(String.format("%.2f", deca.getBaseArea()));
 		volumeTextField.setText(String.format("%.2f", deca.getVolume()));

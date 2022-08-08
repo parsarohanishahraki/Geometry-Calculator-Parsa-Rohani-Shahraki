@@ -41,8 +41,8 @@ public class NonaPrismController {
 
 	@FXML
 	private void calculate() {
-		int length = Integer.parseInt(baseSideTextField.getText());
-		int height = Integer.parseInt(heightTextField.getText());
+		double length = Double.parseDouble(baseSideTextField.getText());
+		double height = Double.parseDouble(heightTextField.getText());
 		EnneagonalPrism enne = new EnneagonalPrism(height, length);
 		baseAreaTextField.setText(String.format("%.2f", enne.getBaseArea()));
 		volumeTextField.setText(String.format("%.2f", enne.getVolume()));

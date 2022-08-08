@@ -41,8 +41,8 @@ public class PentaPrismController {
 
 	@FXML
 	private void calculate() {
-		int length = Integer.parseInt(baseSideTextField.getText());
-		int height = Integer.parseInt(heightTextField.getText());
+		double length = Double.parseDouble(baseSideTextField.getText());
+		double height = Double.parseDouble(heightTextField.getText());
 		PentagonalPrism penta = new PentagonalPrism(height, length);
 		baseAreaTextField.setText(String.format("%.2f", penta.getBaseArea()));
 		volumeTextField.setText(String.format("%.2f", penta.getVolume()));

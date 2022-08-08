@@ -43,8 +43,8 @@ public class TriPrismController {
 	}
 	@FXML
 	private void calculate() {
-		int length = Integer.parseInt(baseSideTextField.getText());
-		int height = Integer.parseInt(heightTextField.getText());
+		double length = Double.parseDouble(baseSideTextField.getText());
+		double height = Double.parseDouble(heightTextField.getText());
 		TriangularPrism tri = new TriangularPrism(height, length);
 		baseAreaTextField.setText(String.format("%.2f", tri.getBaseArea()));
 		volumeTextField.setText(String.format("%.2f", tri.getVolume()));
