@@ -2,7 +2,7 @@ package shapes;
 
 public class DecagonalPrism extends Prism {
 	/**
-	 * Contructor that initializes the Decagonal Prism
+	 * Constructor that initializes the Decagonal Prism
 	 * 
 	 * @param height
 	 * @param length
