@@ -3,7 +3,7 @@ package exception;
 public class InvalidInputException extends Exception {
 
 	public InvalidInputException() {
-		super("Invalid Input! Please enter a floating point number.");
+		super("Please enter a floating point number!");
 	}
 
 	public InvalidInputException(String message) {
