@@ -56,5 +56,6 @@
          </image>
       </ImageView>
       <Button fx:id="goBackButton" layoutX="666.0" layoutY="651.0" mnemonicParsing="false" onAction="#goBack" prefHeight="25.0" prefWidth="120.0" text="Go Back" />
+      <Label fx:id="errorLabel" layoutX="14.0" layoutY="479.0" prefHeight="17.0" prefWidth="224.0" textFill="RED" />
    </children>
 </AnchorPane>
