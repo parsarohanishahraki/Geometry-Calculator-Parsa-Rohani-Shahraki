@@ -1,9 +1,10 @@
 package application;
-import shapes.TriangularPrism;
 
+import shapes.TriangularPrism;
 
 import java.io.IOException;
 
+import exception.InvalidInputException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -11,6 +12,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
@@ -34,22 +36,51 @@ public class TriPrismController {
 	@FXML
 	private TextField heightTextField;
 	@FXML
-	void goBack(ActionEvent event) throws IOException{
+	private Label errorLabel;
+
+	@FXML
+	void goBack(ActionEvent event) throws IOException {
 		root = FXMLLoader.load(getClass().getResource("/scenes/GeoCalcMain.fxml"));
-		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 		scene = new Scene(root, 800, 750);
 		stage.setScene(scene);
 		stage.show();
 	}
+
 	@FXML
 	private void calculate() {
-		double length = Double.parseDouble(baseSideTextField.getText());
-		double height = Double.parseDouble(heightTextField.getText());
+		double length = 0;
+		double height = 0;
+		if (!isNumeric(baseSideTextField.getText()) || !isNumeric(heightTextField.getText())) {
+			// throw new InvalidInputException();
+			errorLabel.setText(new InvalidInputException().getMessage());
+		} else {
+			errorLabel.setText("");
+			length = Double.parseDouble(baseSideTextField.getText());
+			height = Double.parseDouble(heightTextField.getText());
+		}
+
 		TriangularPrism tri = new TriangularPrism(height, length);
 		baseAreaTextField.setText(String.format("%.2f", tri.getBaseArea()));
 		volumeTextField.setText(String.format("%.2f", tri.getVolume()));
-		
+
 	}
-	
+
+	public boolean isNumeric(String str) {
+		if (str == null || str == "") {
+			return false;
+		}
+		char[] c = str.toCharArray();
+		for (int i = 0; i < c.length; i++) {
+			if (c[i] == '.' && i < c.length - 1) {
+				continue;
+			}
+			if (!Character.isDigit(c[i])) {
+				return false;
+			}
+		}
+		return true;
+
+	}
 
 }
