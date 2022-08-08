@@ -2,9 +2,12 @@
 Author: Parsa Rohani Shahraki
 
 =====Description=====
-This is an application that simulates a calculator that is used to calculate the base area and volume of regulars prisms (regular prisms have equal length sides).
+This is an application that was designed to calculate the volume and base area of regular prisms (Regular prisms are prisms that have equal length sides).
+In this version, the available prisms range from triangular(three sided prism) up to and including decagonal(ten sided prism).
+In addition to performing calculations the formulas for calculating the base area and volume of each shape have been provided. 
 
 Simply run the application using the main java file located in the application package, choose a prism that you like and plug in your numbers.
+Once calculated, the answers will pop up in the corresponding non-editable text fields.
 
 =====References=====
 The following links were used as references for either formulas and/or the pictures that were used in this program.
