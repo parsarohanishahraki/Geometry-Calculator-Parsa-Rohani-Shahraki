@@ -38,19 +38,9 @@ public class MainController {
 	@FXML
 	private ImageView decaPrism;
 
-//	public void trilogin(ActionEvent event) throws IOException{
-//		root = FXMLLoader.load(getClass().getResource("TriPrismScene.fxml"));
-//		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-//		scene = new Scene(root, 800, 750);
-//		stage.setScene(scene);
-//		stage.show();
-//	}
-
 	@FXML
 	private void triPrismCalc() throws IOException {
 		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/TriPrismScene.fxml"));
-		pane.setMaxHeight(500);
-		rootPane.setMaxHeight(500);
 		rootPane.getChildren().setAll(pane);
 
 	}
@@ -70,8 +60,6 @@ public class MainController {
 	@FXML
 	private void tetraPrismCalc() throws IOException {
 		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/TetraPrismScene.fxml"));
-		pane.setMaxHeight(500);
-		rootPane.setMaxHeight(500);
 		rootPane.getChildren().setAll(pane);
 
 	}
@@ -91,8 +79,6 @@ public class MainController {
 	@FXML
 	private void pentaPrismCalc() throws IOException {
 		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/PentaPrismScene.fxml"));
-		pane.setMaxHeight(500);
-		rootPane.setMaxHeight(500);
 		rootPane.getChildren().setAll(pane);
 	}
 
@@ -111,8 +97,6 @@ public class MainController {
 	@FXML
 	private void hexaPrismCalc() throws IOException {
 		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/HexagonalPrismScene.fxml"));
-		pane.setMaxHeight(500);
-		rootPane.setMaxHeight(500);
 		rootPane.getChildren().setAll(pane);
 	}
 
@@ -131,8 +115,6 @@ public class MainController {
 	@FXML
 	private void heptaPrismCalc() throws IOException {
 		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/HeptaPrismScene.fxml"));
-		pane.setMaxHeight(500);
-		rootPane.setMaxHeight(500);
 		rootPane.getChildren().setAll(pane);
 	}
 
@@ -151,8 +133,6 @@ public class MainController {
 	@FXML
 	private void octaPrismCalc() throws IOException {
 		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/OctaPrismScene.fxml"));
-		pane.setMaxHeight(500);
-		rootPane.setMaxHeight(500);
 		rootPane.getChildren().setAll(pane);
 	}
 
@@ -171,8 +151,6 @@ public class MainController {
 	@FXML
 	private void nonaPrismCalc() throws IOException {
 		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/NonaPrismScene.fxml"));
-		pane.setMaxHeight(500);
-		rootPane.setMaxHeight(500);
 		rootPane.getChildren().setAll(pane);
 	}
 
@@ -191,8 +169,6 @@ public class MainController {
 	@FXML
 	private void decaPrismCalc() throws IOException {
 		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/DecaPrismScene.fxml"));
-		pane.setMaxHeight(500);
-		rootPane.setMaxHeight(500);
 		rootPane.getChildren().setAll(pane);
 	}
 
