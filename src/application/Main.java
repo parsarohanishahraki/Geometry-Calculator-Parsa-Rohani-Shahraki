@@ -17,7 +17,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			FXMLLoader loader = new FXMLLoader();
-			AnchorPane root = loader.load(new FileInputStream("src/application/GeoCalcMain.fxml"));
+			AnchorPane root = loader.load(new FileInputStream("src/scenes/GeoCalcMain.fxml"));
 			Scene scene = new Scene(root,800,750);
 			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minWidth="-Infinity" prefHeight="750.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TriPrismController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="17.0" prefWidth="802.0" text="Triangular Prism" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="goBackButton" layoutX="666.0" layoutY="661.0" mnemonicParsing="false" onAction="#goBack" prefHeight="25.0" prefWidth="120.0" text="Go Back" />
+      <ImageView fitHeight="250.0" fitWidth="300.0" layoutX="564.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://upload.wikimedia.org/wikipedia/commons/2/21/Triangular_prism.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="283.0" text="Enter the length of base sides:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="217.0" layoutY="67.0" text="*Please note that in regular prisms the base sides are of equal length*" />
+      <TextField fx:id="baseSideTextField" layoutX="14.0" layoutY="317.0" prefHeight="25.0" prefWidth="224.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="528.0" text="Base Area:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="calculateButton" layoutX="161.0" layoutY="445.0" mnemonicParsing="false" onAction="#calculate" prefHeight="25.0" prefWidth="78.0" text="Calculate" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="590.0" text="Volume:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="baseAreaTextField" editable="false" layoutX="96.0" layoutY="526.0" />
+      <TextField fx:id="volumeTextField" editable="false" layoutX="96.0" layoutY="587.0" />
+      <Label layoutX="14.0" layoutY="449.0" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="178.0" text="Base Area = S^2 (√3/4)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="218.0" text="Volume = S^2 *√3/4) * height">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="365.0" text="Enter height:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="heightTextField" layoutX="14.0" layoutY="395.0" prefHeight="25.0" prefWidth="224.0" />
+   </children>
+</AnchorPane>
