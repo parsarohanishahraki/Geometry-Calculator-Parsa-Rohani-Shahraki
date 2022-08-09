@@ -4,8 +4,8 @@ public class EnneagonalPrism extends Prism {
 	/**
 	 * Constructor that initializes the Enneagonal Prism
 	 * 
-	 * @param height
-	 * @param length
+	 * @param height height of the prism
+	 * @param length length of one side of the prism
 	 */
 	public EnneagonalPrism(double height, double length) {
 		super(height, length);

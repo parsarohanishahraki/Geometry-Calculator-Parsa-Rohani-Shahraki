@@ -9,7 +9,7 @@ public abstract class Prism {
 	 * Constructor that initializes a prism object
 	 * 
 	 * @param height height of prism
-	 * @param length length of prism
+	 * @param length length of one side of the prism
 	 */
 	public Prism(double height, double length) {
 		setHeight(height);

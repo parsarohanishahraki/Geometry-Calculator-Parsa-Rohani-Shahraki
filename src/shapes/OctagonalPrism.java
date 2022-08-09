@@ -4,8 +4,8 @@ public class OctagonalPrism extends Prism {
 	/**
 	 * Constructor that initializes the octagonal prism
 	 * 
-	 * @param height
-	 * @param length
+	 * @param height of the prism
+	 * @param length of one side of the prism
 	 */
 	public OctagonalPrism(double height, double length) {
 		super(height, length);

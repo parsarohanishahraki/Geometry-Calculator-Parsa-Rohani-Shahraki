@@ -4,8 +4,8 @@ public class DecagonalPrism extends Prism {
 	/**
 	 * Constructor that initializes the Decagonal Prism
 	 * 
-	 * @param height
-	 * @param length
+	 * @param height height of the prism
+	 * @param length length of one side of the prism
 	 */
 	public DecagonalPrism(double height, double length) {
 		super(height, length);

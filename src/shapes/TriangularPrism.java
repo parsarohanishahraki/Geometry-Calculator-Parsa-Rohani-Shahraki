@@ -5,8 +5,8 @@ public class TriangularPrism extends Prism {
 	/**
 	 * Constructor that initializes a new Triangular prism
 	 * 
-	 * @param height
-	 * @param length
+	 * @param height height of prism
+	 * @param length length of one side of the prism
 	 */
 	public TriangularPrism(double height, double length) {
 		super(height, length);
