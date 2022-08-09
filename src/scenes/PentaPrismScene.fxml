@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="750.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PentaPrismController">
+<AnchorPane prefHeight="750.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PrismsController">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="53.0" prefWidth="800.0" text="Pentagonal Prism" textAlignment="CENTER">
          <font>

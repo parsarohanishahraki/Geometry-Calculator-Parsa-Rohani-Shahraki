@@ -48,9 +48,13 @@ public class MainController {
 	 * @throws IOException if any errors
 	 */
 	private void triPrismCalc() throws IOException {
-		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/TriPrismScene.fxml"));
+		String sceneType = "tri";
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/scenes/TriPrismScene.fxml"));
+		root = loader.load();
+		PrismsController tri = loader.getController();
+		tri.setSceneType(sceneType);
+		AnchorPane pane = (AnchorPane) root;
 		rootPane.getChildren().setAll(pane);
-
 	}
 
 	@FXML
@@ -80,7 +84,12 @@ public class MainController {
 	 * @throws IOException if any errors
 	 */
 	private void tetraPrismCalc() throws IOException {
-		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/TetraPrismScene.fxml"));
+		String sceneType = "tetra";
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/scenes/TetraPrismScene.fxml"));
+		root = loader.load();
+		PrismsController tri = loader.getController();
+		tri.setSceneType(sceneType);
+		AnchorPane pane = (AnchorPane) root;
 		rootPane.getChildren().setAll(pane);
 
 	}
@@ -112,8 +121,14 @@ public class MainController {
 	 * @throws IOException if any errors
 	 */
 	private void pentaPrismCalc() throws IOException {
-		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/PentaPrismScene.fxml"));
+		String sceneType = "penta";
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/scenes/PentaPrismScene.fxml"));
+		root = loader.load();
+		PrismsController tri = loader.getController();
+		tri.setSceneType(sceneType);
+		AnchorPane pane = (AnchorPane) root;
 		rootPane.getChildren().setAll(pane);
+
 	}
 
 	@FXML
@@ -143,7 +158,12 @@ public class MainController {
 	 * @throws IOException if any errors
 	 */
 	private void hexaPrismCalc() throws IOException {
-		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/HexagonalPrismScene.fxml"));
+		String sceneType = "hexa";
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/scenes/HexaPrismScene.fxml"));
+		root = loader.load();
+		PrismsController tri = loader.getController();
+		tri.setSceneType(sceneType);
+		AnchorPane pane = (AnchorPane) root;
 		rootPane.getChildren().setAll(pane);
 	}
 
@@ -174,7 +194,12 @@ public class MainController {
 	 * @throws IOException if any errors
 	 */
 	private void heptaPrismCalc() throws IOException {
-		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/HeptaPrismScene.fxml"));
+		String sceneType = "hepta";
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/scenes/HeptaPrismScene.fxml"));
+		root = loader.load();
+		PrismsController tri = loader.getController();
+		tri.setSceneType(sceneType);
+		AnchorPane pane = (AnchorPane) root;
 		rootPane.getChildren().setAll(pane);
 	}
 
@@ -205,7 +230,12 @@ public class MainController {
 	 * @throws IOException if any errors
 	 */
 	private void octaPrismCalc() throws IOException {
-		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/OctaPrismScene.fxml"));
+		String sceneType = "octa";
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/scenes/OctaPrismScene.fxml"));
+		root = loader.load();
+		PrismsController tri = loader.getController();
+		tri.setSceneType(sceneType);
+		AnchorPane pane = (AnchorPane) root;
 		rootPane.getChildren().setAll(pane);
 	}
 
@@ -236,7 +266,12 @@ public class MainController {
 	 * @throws IOException if any errors
 	 */
 	private void nonaPrismCalc() throws IOException {
-		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/NonaPrismScene.fxml"));
+		String sceneType = "nona";
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/scenes/NonaPrismScene.fxml"));
+		root = loader.load();
+		PrismsController tri = loader.getController();
+		tri.setSceneType(sceneType);
+		AnchorPane pane = (AnchorPane) root;
 		rootPane.getChildren().setAll(pane);
 	}
 
@@ -267,7 +302,12 @@ public class MainController {
 	 * @throws IOException if any errors
 	 */
 	private void decaPrismCalc() throws IOException {
-		AnchorPane pane = FXMLLoader.load(getClass().getResource("/scenes/DecaPrismScene.fxml"));
+		String sceneType = "deca";
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/scenes/DecaPrismScene.fxml"));
+		root = loader.load();
+		PrismsController tri = loader.getController();
+		tri.setSceneType(sceneType);
+		AnchorPane pane = (AnchorPane) root;
 		rootPane.getChildren().setAll(pane);
 	}
 
