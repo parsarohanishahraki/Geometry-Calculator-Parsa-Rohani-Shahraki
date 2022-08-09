@@ -42,7 +42,9 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method that changes scenes to the triangular prism scene to perform calculations
+	 * Method that changes scenes to the triangular prism scene to perform
+	 * calculations
+	 * 
 	 * @throws IOException if any errors
 	 */
 	private void triPrismCalc() throws IOException {
@@ -53,7 +55,8 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method to reduce the opacity of the triangular prism image by half once hovered over
+	 * Method to reduce the opacity of the triangular prism image by half once
+	 * hovered over
 	 */
 	private void triPrismChangeHue() {
 		triPrism.setOpacity(.5);
@@ -71,7 +74,9 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method that changes scenes to the tetragonal prism scene to perform calculations
+	 * Method that changes scenes to the tetragonal prism scene to perform
+	 * calculations
+	 * 
 	 * @throws IOException if any errors
 	 */
 	private void tetraPrismCalc() throws IOException {
@@ -82,7 +87,8 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method to reduce the opacity of the tetragonal prism image by half once hovered over
+	 * Method to reduce the opacity of the tetragonal prism image by half once
+	 * hovered over
 	 */
 	private void tetraPrismChangeHue() {
 		tetraPrism.setOpacity(.5);
@@ -100,7 +106,9 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method that changes scenes to the pentagonal prism scene to perform calculations
+	 * Method that changes scenes to the pentagonal prism scene to perform
+	 * calculations
+	 * 
 	 * @throws IOException if any errors
 	 */
 	private void pentaPrismCalc() throws IOException {
@@ -110,7 +118,8 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method to reduce the opacity of the pentagonal prism image by half once hovered over
+	 * Method to reduce the opacity of the pentagonal prism image by half once
+	 * hovered over
 	 */
 	private void pentaPrismChangeHue() {
 		pentaPrism.setOpacity(.5);
@@ -128,7 +137,9 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method that changes scenes to the hexagonal prism scene to perform calculations
+	 * Method that changes scenes to the hexagonal prism scene to perform
+	 * calculations
+	 * 
 	 * @throws IOException if any errors
 	 */
 	private void hexaPrismCalc() throws IOException {
@@ -138,7 +149,8 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method to reduce the opacity of the hexagonal prism image by half once hovered over
+	 * Method to reduce the opacity of the hexagonal prism image by half once
+	 * hovered over
 	 */
 	private void hexaPrismChangeHue() {
 		hexaPrism.setOpacity(.5);
@@ -156,7 +168,9 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method that changes scenes to the heptagonal prism scene to perform calculations
+	 * Method that changes scenes to the heptagonal prism scene to perform
+	 * calculations
+	 * 
 	 * @throws IOException if any errors
 	 */
 	private void heptaPrismCalc() throws IOException {
@@ -166,7 +180,8 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method to reduce the opacity of the heptagonal prism image by half once hovered over
+	 * Method to reduce the opacity of the heptagonal prism image by half once
+	 * hovered over
 	 */
 	private void heptaPrismChangeHue() {
 		heptaPrism.setOpacity(.5);
@@ -184,7 +199,9 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method that changes scenes to the octagonal prism scene to perform calculations
+	 * Method that changes scenes to the octagonal prism scene to perform
+	 * calculations
+	 * 
 	 * @throws IOException if any errors
 	 */
 	private void octaPrismCalc() throws IOException {
@@ -194,7 +211,8 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method to reduce the opacity of the octagonal prism image by half once hovered over
+	 * Method to reduce the opacity of the octagonal prism image by half once
+	 * hovered over
 	 */
 	private void octaPrismChangeHue() {
 		octaPrism.setOpacity(.5);
@@ -212,7 +230,9 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method that changes scenes to the enneagonal prism scene to perform calculations
+	 * Method that changes scenes to the enneagonal prism scene to perform
+	 * calculations
+	 * 
 	 * @throws IOException if any errors
 	 */
 	private void nonaPrismCalc() throws IOException {
@@ -222,7 +242,8 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method to reduce the opacity of the enneagonal prism image by half once hovered over
+	 * Method to reduce the opacity of the enneagonal prism image by half once
+	 * hovered over
 	 */
 	private void nonaPrismChangeHue() {
 		nonaPrism.setOpacity(.5);
@@ -240,7 +261,9 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method that changes scenes to the decagonal prism scene to perform calculations
+	 * Method that changes scenes to the decagonal prism scene to perform
+	 * calculations
+	 * 
 	 * @throws IOException if any errors
 	 */
 	private void decaPrismCalc() throws IOException {
@@ -250,7 +273,8 @@ public class MainController {
 
 	@FXML
 	/**
-	 * Method to reduce the opacity of the decagonal prism image by half once hovered over
+	 * Method to reduce the opacity of the decagonal prism image by half once
+	 * hovered over
 	 */
 	private void decaPrismChangeHue() {
 		decaPrism.setOpacity(.5);
