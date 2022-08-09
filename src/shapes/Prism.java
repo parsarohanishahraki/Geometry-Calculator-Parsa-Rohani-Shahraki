@@ -62,7 +62,7 @@ public abstract class Prism {
 	/**
 	 * Method to calculate the volume of a prism
 	 * 
-	 * @return
+	 * @return volume
 	 */
 	public abstract double getVolume();
 
