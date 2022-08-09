@@ -6,7 +6,7 @@ public class InvalidInputException extends Exception {
 	 * Constructor that will push the error message.
 	 */
 	public InvalidInputException() {
-		super("Please enter a floating point number!");
+		super("Enter a number or decimal number.");
 	}
 
 	public InvalidInputException(String message) {
